@@ -1,4 +1,7 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://fixyourhands.github.io/repo"
+    targetNamespace="http://fixyourhands.github.io/repo"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xs:element name="Hotels">
         <xs:complexType>
             <xs:sequence>
